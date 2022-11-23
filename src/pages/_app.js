@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from './layout'
-function MyApp({ Component, pageProps }) {
+function MyApp ({ Component, pageProps }) {
   return (
     <>
       <Layout>
