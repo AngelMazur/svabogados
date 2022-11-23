@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>SV ABOGADOS</title>
       </Head>
 
       <main className={styles.main}>
