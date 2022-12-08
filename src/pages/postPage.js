@@ -13,12 +13,12 @@ const PostPage = () => {
 
   return (
     <section>
-      {posts.maps(post => {
+      {posts.map(post => (
         <article key={post.id}>
-          <h2>{post.body}</h2>
+          <h3>{post.body}</h3>
           <p>{post.title}</p>
         </article>
-      })}
+      ))}
     </section>
   )
 }
