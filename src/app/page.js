@@ -1,19 +1,18 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home () {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome SvAbogados</h1>
+        <h1 className={styles.title}>
+          Welcome SvAbogados
+        </h1>
 
-        <div className={styles.grid}>Lorem Ipsum</div>
+        <div className={styles.grid}>
+          Lorem Ipsum
+        </div>
       </main>
-
-      <Link href='/postPage'>
-        <h1>Post page</h1>
-      </Link>
 
       <footer className={styles.footer}>
         <a
