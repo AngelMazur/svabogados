@@ -46,7 +46,7 @@ body {
 :root {
 	--thm-font: 'Poppins', sans-serif;
 	--thm-base: #2C3C48;
-	--thm-color: #C2AD76;
+	--thm-color: #5f0810;
 	--thm-black: #404040;
 	--thm-white: #ffffff;
 	--thm-eee: #eeeeee;
@@ -898,6 +898,7 @@ button, input, textarea:focus {
 	padding: 40px 28px;
 	border-radius: 0;
 	background:  var(--thm-white);
+	min-height: 550px;
 }
 .atf-single-services{
 	border: 1px solid var(--thm-eee);

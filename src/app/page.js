@@ -72,7 +72,7 @@ export default function Home () {
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='atf-section-title text-center wow zoomIn' data-wow-duration='1s' data-wow-delay='0.2s' data-wow-offset='0'>
-                <h3>Area Of Expertise</h3>
+                <h3>Servicios</h3>
                 <div className='title-divider mt-3'> <Image src='/favicon.png' className='img-fluid' alt='divider' width={72} height={16} /></div>
                 <p className='f-15 mt-3'>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
               </div>
@@ -88,15 +88,13 @@ export default function Home () {
                   <i className='fab fa-bandcamp' />
                 </div>
                 <div className='atf-services-text'>
-                  <h5 className='mb-3'>Insurance Matter</h5>
-                  <p> It was popularised in the 1960s with the release of Letraset sheets containing .</p>
+                  <h5 className='mb-3'>Derecho civil, familia y sucesiones</h5>
+                  <p>Aliqua veniam eu et esse culpa voluptate do ex consectetur velit non esse duis.</p>
                   <ul className='atf-service-inner-content mt-3'>
-                    <li>Medical Neglance</li>
-                    <li>Law Firm</li>
-                    <li>Pattent Laws</li>
-                    <li>Real Estate</li>
-                    <li>Family Matters</li>
-                    <li>Busniess Corporate</li>
+                    <li>Separaciones y divorcios</li>
+                    <li>Impago pensiones alimentos</li>
+                    <li>Modificación de medidas en el ambito de familia</li>
+                    <li>Herencias</li>
                   </ul>
                 </div>
               </div>
@@ -109,15 +107,14 @@ export default function Home () {
                   <i className='fas fa-envelope-open-text' />
                 </div>
                 <div className='atf-services-text'>
-                  <h5 className='mb-3'>Pattent Laws</h5>
-                  <p> It was popularised in the 1960s with the release of Letraset sheets containing .</p>
+                  <h5 className='mb-3'>Actuaciones generales para personas física y empresas</h5>
+                  <p>Aliqua veniam eu et esse culpa voluptate do ex consectetur velit non esse duis.</p>
                   <ul className='atf-service-inner-content mt-3'>
-                    <li>Medical Neglance</li>
-                    <li>Law Firm</li>
+                    <li>Redacción de contratos</li>
+                    <li>Gestiones notariales</li>
                     <li>Pattent Laws</li>
-                    <li>Real Estate</li>
-                    <li>Family Matters</li>
-                    <li>Busniess Corporate</li>
+                    <li>Reclamaciones civiles</li>
+                    <li>Desahucios</li>
                   </ul>
                 </div>
               </div>
@@ -130,15 +127,13 @@ export default function Home () {
                   <i className='fab fa-uikit' />
                 </div>
                 <div className='atf-services-text'>
-                  <h5 className='mb-3'>Fraud Protection</h5>
-                  <p> It was popularised in the 1960s with the release of Letraset sheets containing .</p>
+                  <h5 className='mb-3'>Tramites en administraciones públicas</h5>
+                  <p>Exercitation sint aute cillum id consequat irure ullamco labore est velit Lorem ut labore.</p>
                   <ul className='atf-service-inner-content mt-3'>
-                    <li>Medical Neglance</li>
-                    <li>Law Firm</li>
-                    <li>Pattent Laws</li>
-                    <li>Real Estate</li>
-                    <li>Family Matters</li>
-                    <li>Busniess Corporate</li>
+                    <li>Gestiones en agencia tributaría</li>
+                    <li>Gestiones en seguridad social</li>
+                    <li>Gestiones en ayuntamientos</li>
+                    <li>Trámites en extranjería</li>
                   </ul>
                 </div>
               </div>
