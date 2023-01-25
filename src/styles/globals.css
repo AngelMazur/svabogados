@@ -898,7 +898,7 @@ button, input, textarea:focus {
 	padding: 40px 28px;
 	border-radius: 0;
 	background:  var(--thm-white);
-	min-height: 550px;
+	min-height: 600px;
 }
 .atf-single-services{
 	border: 1px solid var(--thm-eee);

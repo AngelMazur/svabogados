@@ -7,6 +7,7 @@ import '../styles/slick-theme.css'
 import '../styles/slick.css'
 import '../styles/slicknav.css'
 import '../styles/bootstrap.css'
+import '../../public/fonts/font-awesome.css'
 // import '../styles/bootstrap.css.map'
 
 const RootLayout = ({ children }) => {
