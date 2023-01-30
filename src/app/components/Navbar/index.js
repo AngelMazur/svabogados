@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { animateScroll as scroll } from 'react-scroll'
+// import SlickNav from '../SlickNav'
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -57,21 +58,14 @@ const Navbar = () => {
               <div className='header_right '>
                 <nav id='main-menu' className='ms-auto'>
                   <ul>
-                    <li><a href='#home'>Home</a>
-                      <ul>
-                        <li><a href='index.html'>Home Default</a></li>
-                      </ul>
-                    </li>
+                    <li><a href='#home'>Inicio</a></li>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#service'>Service</a></li>
                     <li><a href='#contact'>Contact</a></li>
-                    <li><a href='#team'>Attorney</a></li>
-                    <li><a href='#portfolio'>Case Study</a></li>
                     <li><a href='#pricing'>Pricing</a></li>
-                    <li><a href='#blog'>Blog</a></li>
                   </ul>
                 </nav>
-                <div id='mobile_menu' />
+                {/* <div id='mobile_menu' /> */}
               </div>
             </div>
           </div>

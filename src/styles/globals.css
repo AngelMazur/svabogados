@@ -362,8 +362,8 @@ button, input, textarea:focus {
 /* START BTN STYLE */
 
 .atf-themes-btn {
-	color: var(--thm-white);
-	background: var(--thm-color);
+	color: var(--thm-color);
+	background: transparent;
 	border-radius: 4px;
 	font-size: 15px;
 	padding: 8px 22px;
@@ -382,7 +382,7 @@ button, input, textarea:focus {
 	border: 2px solid var(--thm-color);
 }
 .atf-themes-btn:hover{
-	background: transparent;
+	background: var(--thm-color);
 	color: var(--thm-white);
 }
 .btn-2{
@@ -456,7 +456,7 @@ button, input, textarea:focus {
 	position: relative;
 }
 #main-menu ul li a {
-	color: var(--thm-white);
+	color: var(--thm-color);
 	font-weight: 400;
 	text-transform: capitalize;
 	font-family: var(--thm-font);
@@ -468,14 +468,14 @@ button, input, textarea:focus {
 }
 
 #navigation.navbar-fixed #main-menu ul li a{
-	color: var(--thm-black);
+	color: var(--thm-color);
 	padding: 22px 0 22px;
 }
 #navigation.navbar-fixed #main-menu ul li a:hover,
 #navigation.navbar-fixed #main-menu ul li a:focus,
 #main-menu ul li a:hover,
 #main-menu ul li a:focus{
-	color: var(--thm-color);
+	color: var(--thm-black);
 }
 #main-menu ul li > a:hover,
 #main-menu ul li > a:focus{
@@ -597,7 +597,7 @@ button, input, textarea:focus {
 .atf-header-area .atf-single-details h2 {
 	font-size: 48px;
 	font-weight: 700;
-	color: var(--thm-white);
+	color: var(--thm-color);
 	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
 }
 
@@ -1839,11 +1839,13 @@ button, input, textarea:focus {
 * 16.END FOOTER DESIGN
 * ----------------------------------------------------------------------------------------
 */
+/* TODO: Hacer botón movile */
+
 @media only screen and (max-width: 991px){
-	#main-menu{
+	/* #main-menu{
 		display: none;
 		
-	}
+	} */
 	#main-menu ul li a .arrow-btn{
 		display:none;
 	}

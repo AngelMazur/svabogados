@@ -1,40 +1,19 @@
-import Image from 'next/image'
 import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import FormContact from './components/FormContact'
 
 export default function Home () {
   return (
     <>
       <Navbar />
-      <section
-        id='home' className='atf-header-area atf-align-items-details'
-      >
-        <div className='container'>
-          <div className='row justify-content-left'>
-            {/* <!--LEFT COL--> */}
-            <div className='col-xl-7 col-lg-6 col-12 atf-single-details text-left'>
-              <h5 className='text-white text-uppercase mb-4'><i className='fas fa-gavel me-2' />Your Personal Legal Firm</h5>
-              <h2 className='text-uppercase'>Bienvenido a SV Abogados</h2>
-              <p className='f-17 mt-4 text-white'>A Theme for Law , Law Firm & Culsultants.</p>
-              {/* <!-- Main-btn --> */}
-              <div className='atf-main-btn mt-5'>
-                <a href='#contact' className='atf-themes-btn'>Your Case <i className='fa fa-angle-right' /></a>
-                <a href='#contact' className='atf-themes-btn btn-2 ms-2'>Learn More <i className='fa fa-angle-right' /></a>
-              </div>
-            </div>
-            {/* <!--- END COL --> */}
-          </div>
-          {/* <!--- END ROW --> */}
-        </div>
-        {/* <!--- END CONTAINER --> */}
-      </section>
-      {/* <!-- END HOME --> */}
+      <Banner />
       <section id='service' className='atf-service-area bg-light atf-section-padding'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='atf-section-title text-center wow zoomIn' data-wow-duration='1s' data-wow-delay='0.2s' data-wow-offset='0'>
                 <h3>Servicios</h3>
-                <div className='title-divider mt-3'> <Image src='/favicon.png' className='img-fluid' alt='divider' width={72} height={16} /></div>
+                <div className='title-divider mt-3' />
                 <p className='f-15 mt-3'>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
               </div>
             </div>
@@ -105,6 +84,7 @@ export default function Home () {
         {/* <!--- END CONTAINER --> */}
       </section>
       {/* <!-- END PRACTISE SECTION  --> */}
+      <FormContact />
     </>
   )
 }
