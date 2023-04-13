@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import FormContact from './components/FormContact'
+import ContactSection from './components/ContactSection'
 
 export default function Home () {
   return (
@@ -85,6 +86,7 @@ export default function Home () {
       </section>
       {/* <!-- END PRACTISE SECTION  --> */}
       <FormContact />
+      <ContactSection />
     </>
   )
 }
