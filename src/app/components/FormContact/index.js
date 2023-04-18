@@ -19,7 +19,7 @@ const FormContact = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6'>
-            <div className='atf-section-title text-left'>
+            <div className='atf-section-title text-left mt-5'>
               {/* <h5 className='sub-title text-primary text-uppercase mb-0 f-15 ps-1'>Legal Laws</h5> */}
               <h3>Consulta gratuita</h3>
               <p className='f-15 mt-3'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>

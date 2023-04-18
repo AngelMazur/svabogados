@@ -5,34 +5,33 @@ const ContactSection = () => {
   const longitude = '-8.638792'
 
   return (
-    <section id='address' className='atf-contact-area atf-section-padding'>
+    <section id='address' className='atf-contact-area bg-light atf-section-padding'>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6'>
             <div className='atf-contact-info wow fadeIn' data-wow-duration='1s' data-wow-delay='0.3s' data-wow-offset='0'>
               <div className='atf-section-title'>
-                <h3>Get In Touch</h3>
-                <p className='f-15 mt-3'>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary
-                  making this the first true generator on the Internet. It uses a dictionary.
+                <h3>Contactar</h3>
+                <p className='f-15 mt-3'>Si necesitas asistencia legal, no dudes en ponerte en contacto con nosotros. Estamos disponibles para responder a tus preguntas, brindarte información detallada sobre nuestros servicios y ofrecerte una atención legal personalizada. Nos enorgullecemos de ofrecer soluciones efectivas y de calidad a nuestros clientes. ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte!
                 </p>
               </div>
 
               <div className='atf-contact-details mt-4'>
                 <i className='fa fa-home' />
-                <h5>Home Address</h5>
-                <p>1 Grafton Street, Dublin, Ireland University.</p>
+                <h5>Dirección</h5>
+                <p>Av. Vigo, 108, 5ºD, 36003 Pontevedra</p>
               </div>
 
               <div className='atf-contact-details mt-4'>
                 <i className='fa fa-phone' />
-                <h5>Mobile Number</h5>
-                <p>+135 773 321 4442</p>
+                <h5>Móvil</h5>
+                <p>619 78 80 26</p>
               </div>
 
               <div className='atf-contact-details mt-4'>
                 <i className='fa fa-envelope' />
-                <h5>Email Address</h5>
-                <p>demo@example.com</p>
+                <h5>E-mail</h5>
+                <p>svabogados@hotmail.com</p>
               </div>
             </div>
           </div>

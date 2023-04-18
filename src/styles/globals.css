@@ -1679,6 +1679,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-contact-info {
+	background: var(--thm-white);
 	padding: 35px;
 	margin-right: 25px;
 	box-shadow: 0px 4px 6px 4px rgba(75, 81, 91, 0.1);
