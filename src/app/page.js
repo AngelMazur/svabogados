@@ -47,7 +47,7 @@ export default function Home () {
             {/* <!--- END COL --> */}
 
             <div className='col-lg-4'>
-              <div className='atf-single-services text-left wow fadeIn mt-3' data-wow-duration='1s' data-wow-delay='0.3s' data-wow-offset='0'>
+              <div className='atf-single-services text-left wow fadeIn' data-wow-duration='1s' data-wow-delay='0.3s' data-wow-offset='0'>
                 <div className='atf-services-icon mb-4'>
                   <i className='fas fa-briefcase' />
                 </div>
