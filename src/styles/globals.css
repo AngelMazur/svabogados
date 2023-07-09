@@ -600,11 +600,29 @@ button, input, textarea:focus {
 	color: var(--thm-color);
 	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
 }
+.atf-header-area .atf-single-details h3 {
+	font-size: 38px;
+	font-weight: 700;
+	color: var(--thm-color);
+	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
+}
+.atf-header-area .atf-single-details h4 {
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--thm-color);
+	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
+}
 
 .atf-single-details h5 {
 	-webkit-animation: 1.7s .9s fadeInDown both;
 	animation: 1.7s .9s fadeInDown both; }
 .atf-single-details h2 {
+	-webkit-animation: 1.7s .9s fadeInLeft both;
+animation: 1.7s .9s fadeInLeft both; }∫
+.atf-single-details h3 {
+	-webkit-animation: 1.7s .9s fadeInLeft both;
+	animation: 1.7s .9s fadeInLeft both; }
+.atf-single-details h4 {
 	-webkit-animation: 1.7s .9s fadeInLeft both;
 	animation: 1.7s .9s fadeInLeft both; }
 
@@ -1002,7 +1020,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-contact-btn button:hover {
-	color:var(--thm-black);
+	color:var(--thm-white);
 }
 
 .contact .form-control {

@@ -18,7 +18,8 @@ const Banner = () => {
       <div className='container'>
         <div className='row justify-content-left'>
           <div className='col-xl-7 col-lg-6 col-12 atf-single-details text-left'>
-            <h2 className='text-uppercase'>Bienvenido a SV Abogados</h2>
+            <h2 className='text-uppercase'>SV Abogados</h2>
+            <h4 className='text-uppercase'>Asesoramiento cercano y de confianza</h4>
             <div className='atf-main-btn mt-5'>
               <a href='#contact' className='atf-themes-btn'>Obtener presupuesto <i className='fa fa-angle-right' /></a>
             </div>
