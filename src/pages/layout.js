@@ -8,15 +8,16 @@ import '../styles/slick.css'
 import '../styles/slicknav.css'
 import '../styles/bootstrap.css'
 import '../../public/fonts/font-awesome.css'
+import Head from 'next/head'
 // import '../styles/bootstrap.css.map'
 
 const RootLayout = ({ children }) => {
   return (
     <html>
-      <head>
+      <Head>
         <title>SV ABOGADOS</title>
         <link rel='icon' href='/favicon.ico' />
-      </head>
+      </Head>
       <body>
         {children}
       </body>
