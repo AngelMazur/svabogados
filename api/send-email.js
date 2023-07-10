@@ -15,7 +15,7 @@ export default async function handler (req, res) {
     to: ['svabogados@hotmail.com'],
     // A verified sender is mandatory
     from: {
-      email: 'svabogados@hotmail.com',
+      email: 'stanlpa3.0@gmail.com',
       name: 'SV Abogados Web'
     },
     subject: `SV Abogados Web: ${subject}`,
