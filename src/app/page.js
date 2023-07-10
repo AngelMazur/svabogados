@@ -10,6 +10,7 @@ const DynamicContactSection = dynamic(() => import('./components/ContactSection'
   loading: () => <p>Loading...</p>
 })
 
+// HOME
 export default function Home () {
   return (
     <>
