@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className='row'>
             <div className='col-lg-2 col-md-3 col-sm-4'>
               <div className='site-logo'>
-                <Link href='/'><Image src='/logo.png' alt='SVabogados Logo' width={72} height={16} /></Link>
+                <Link href='/'><Image src='/logo_sv.png' alt='SVabogados Logo' width={72} height={16} /></Link>
               </div>
             </div>
 
