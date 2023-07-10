@@ -12,7 +12,7 @@ export default async function handler (req, res) {
   `
 
   const emailConfig = {
-    to: ['stanlpa3.0@gmail.com'],
+    to: ['svabogados@hotmail.com'],
     // A verified sender is mandatory
     from: {
       email: 'svabogados@hotmail.com',
