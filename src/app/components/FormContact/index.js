@@ -36,9 +36,7 @@ const FormContact = () => {
                       <input type='text' name='subject' className='form-control' id='subject' placeholder='Asunto' value={subject} onChange={(e) => setSubject(e.target.value)} required />
                     </div>
                     <div className='form-group col-lg-12'>
-                      <textarea rows='6' name='message' className='form-control' id='message' placeholder='Tu mensaje' value={message} onChange={(e) => setMessage(e.target.value)} required>
-                        fixError
-                      </textarea>
+                      <textarea rows='6' name='message' className='form-control' id='message' placeholder='Tu mensaje' value={message} onChange={(e) => setMessage(e.target.value)} required />
                     </div>
                     <div className='col-lg-12'>
                       <div className='atf-contact-btn text-left'>

@@ -25,7 +25,7 @@ const About = () => {
               <h3>Más de 20 años de experiencia</h3>
               <p className='f-15 mt-3'>Somos un despacho que  opera en Madrid desde el año 2001, con nueva sede en Pontevedra desde el año 2021. Realizamos gestiones a nivel nacional en todos aquellos ámbitos de actuación que nos lo permiten.
               </p>
-              <p classNameName='f-15 mt-3'>
+              <p className='f-15 mt-3'>
                 Estamos especializados en Derecho de Familia y en Derecho de Extranjería, siendo estas áreas en las que más experiencia hemos desarrollado a lo largo de nuestra  trayectoria profesional. Si bien realizamos también otras actuaciones relacionadas con estos áreas del Derecho.
               </p>
               <div className='atf-main-btn atf-about-btn mt-4'>

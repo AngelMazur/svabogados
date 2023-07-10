@@ -11,7 +11,7 @@ const DynamicContactSection = dynamic(() => import('./components/ContactSection'
 })
 
 // HOME
-export default function Home () {
+export default function Page () {
   return (
     <>
       <Navbar />
