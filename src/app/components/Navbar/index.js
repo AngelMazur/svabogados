@@ -62,7 +62,7 @@ const Navbar = () => {
                     <li><a href='#about'>Conócenos mejor</a></li>
                     <li><a href='#service'>Servicios</a></li>
                     <li><a href='#contact'>Contacto</a></li>
-                    {/* <li><a href='#pricing'>Pricing</a></li> */}
+                    <li><a href='#pricing'>Pricing</a></li>
                   </ul>
                 </nav>
                 {/* <div id='mobile_menu' /> */}
