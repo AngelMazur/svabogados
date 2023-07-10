@@ -1,3 +1,4 @@
+
 import '../styles/globals.css'
 import '../styles/animate.css'
 import '../styles/magnific-popup.css'
