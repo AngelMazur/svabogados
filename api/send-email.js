@@ -3,26 +3,26 @@ export default async function handler (req, res) {
 
   sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
-  const { name, email, subject, text } = req.body
+  const { name, email, subject, message } = req.body
 
   const emailHtmlContent = `
     <h2>SV Abogados Web: ${subject}</h2>
     <p>${name} (${email})</p>
-    <p>${text}</p>
+    <p>${message}</p>
   `
 
   const emailConfig = {
     to: ['stanlpa3.0@gmail.com'],
     // A verified sender is mandatory
     from: {
-      email: 'stanlpa3.0@gmail.com',
+      email: 'svabogados@hotmail.com',
       name: 'SV Abogados Web'
     },
     subject: `SV Abogados Web: ${subject}`,
     content: [
       {
         type: 'text/plain',
-        value: text
+        value: message
       },
       {
         type: 'text/html',
