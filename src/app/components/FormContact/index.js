@@ -19,7 +19,7 @@ const FormContact = () => {
     try {
       const response = await fetch('/api/send-email', {
         method: 'POST',
-        body: JSON.stringify(body)
+        body
       })
 
       const result = await response.json()
