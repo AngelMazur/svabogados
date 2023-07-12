@@ -9,14 +9,17 @@ const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0)
   const [navbarClass, setNavbarClass] = useState('')
   const [sticky, setSticky] = useState('')
+  const [handleLogo, sethandleLogo] = useState('')
 
   useEffect(() => {
     function handleScroll () {
       setScrollPosition(window.scrollY)
       if (scrollPosition > 70) {
         setNavbarClass('navbar-fixed')
+        sethandleLogo(<Link href='#home'><DynamicImage src='/logo1_bg.png' alt='SVabogados Logo' width={72} /></Link>)
       } else {
         setNavbarClass('')
+        sethandleLogo(<Link href='#home'><DynamicImage src='/logo1_sv.png' alt='SVabogados Logo' width={72} /></Link>)
       }
       if (scrollPosition > 50) {
         setSticky('open')
@@ -35,6 +38,25 @@ const Navbar = () => {
     scroll.scrollTo(target)
   }
 
+  // Calcular el auto de la imagen
+  const DynamicImage = ({ src, alt, width }) => {
+    const [height, setHeight] = useState(0)
+
+    useEffect(() => {
+      const calculateHeight = () => {
+        const aspectRatio = 16 / 9 // Ajusta esto según la relación de aspecto de tu imagen
+        const calculatedHeight = width / aspectRatio
+        setHeight(calculatedHeight)
+      }
+
+      calculateHeight()
+      window.addEventListener('resize', calculateHeight)
+      return () => window.removeEventListener('resize', calculateHeight)
+    }, [width])
+
+    return <Image src={src} alt={alt} width={width} height={height} />
+  }
+
   return (
     <>
       <button
@@ -50,7 +72,7 @@ const Navbar = () => {
           <div className='row'>
             <div className='col-lg-2 col-md-3 col-sm-4'>
               <div className='site-logo'>
-                <Link href='/'><Image src='/logo_sv.png' alt='SVabogados Logo' width={72} height={16} /></Link>
+                {handleLogo}
               </div>
             </div>
 
@@ -62,7 +84,6 @@ const Navbar = () => {
                     <li><a href='#about'>Conócenos mejor</a></li>
                     <li><a href='#service'>Servicios</a></li>
                     <li><a href='#contact'>Contacto</a></li>
-                    <li><a href='#pricing'>Pricing</a></li>
                   </ul>
                 </nav>
                 {/* <div id='mobile_menu' /> */}

@@ -12,7 +12,6 @@ const FormContact = () => {
     e.preventDefault()
     // Aquí puedes manejar la lógica de envío del formulario
     // Puedes acceder a los valores de los estados name, email, subject y message
-    console.log('Submit:', { name, email, subject, message })
 
     const body = { name, email, subject, message }
 
